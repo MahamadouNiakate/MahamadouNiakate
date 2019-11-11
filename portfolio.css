@@ -1,0 +1,360 @@
+h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+body {
+  background-color: purple;
+}
+
+.titre {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+a:li {
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  background-color: aliceblue;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 10px;
+  margin-top: 150px;
+}
+
+.bouton {
+  display: flex;
+  flex-direction: reverse;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+  margin-right: 30 px;
+  border-radius: 10px 10px;
+}
+
+ul {
+  padding: 15px;
+  float: center;
+}
+
+li {
+  list-style: none;
+  padding: 12px;
+  border-bottom: 1px solid #999;
+}
+
+.paragraphe2 {
+  float: center;
+  width: 80%;
+}
+
+a {
+  color: black;
+  background-color: blanchedalmond;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: white;
+  padding: 20px;
+}
+
+h2 {
+  color: purple;
+  margin-left: 60px;
+}
+
+.textDescription {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.photoo {
+  border-radius: 200px;
+  margin-right: 20px;
+}
+
+p {
+  width: 90%;
+  float: "center";
+}
+
+.textPhoto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 100;
+  width: 400px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+  margin-left: 0.5em;
+}
+
+.Projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-js {
+  color: mediumaquamarine;
+  padding-right: 10px;
+}
+
+.fa-html5 {
+  color: blue;
+  padding-right: 10px;
+}
+
+.fa-css3-alt {
+  color: blue;
+  padding-right: 10px;
+}
+
+.fa-react {
+  color: orange;
+  padding-right: 10px;
+}
+
+.fa-node {
+  color: purple;
+  padding-right: 10px;
+}
+
+.fab {
+  width: 600 px;
+  height: 600 px;
+  max-width: 100%;
+}
+
+.fa-dice-d20 {
+  color: white;
+}
+
+.icone {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.font {
+  margin-top: 60px;
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titre1 {
+  border-top: 2px solid blue;
+  width: 110px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.titre2 {
+  border-top: 2px solid blue;
+  width: 110px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.titre3 {
+  border-top: 2px solid blue;
+  width: 110px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.titre4 {
+  border-top: 2px solid blue;
+  width: 110px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.line1 {
+  margin-top: 60px;
+}
+
+.paragraphe2 {
+  margin-top: 60px;
+}
+
+.line2 {
+  margin-top: 60px;
+}
+
+.line3 {
+  margin-top: 100px;
+}
+
+.line4 {
+  margin-top: 100px;
+}
+
+.formulaire {
+  margin-top: 60px;
+  width: 80%;
+}
+
+.nomF {
+  width: 90%;
+}
+
+.emailF {
+  width: 90%;
+}
+
+.messageF {
+  width: 90%;
+}
+
+.basDePage {
+  position: fixed;
+  bottom: 10px;
+  right: 100px;
+  opacity: 0.5;
+  float: center;
+}
+
+.mail {
+  color: blue;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.courriel {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: black;
+}
+
+.linkedin {
+  margin-top: 30px;
+}
+
+.linkedinn {
+  color: blue;
+}
+
+.linkedinn:hover {
+  background-color: grey;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    margin: 0px;
+  }
+  .bouton {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  a:hover {
+    padding: 25px;
+  }
+
+  .textPhoto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textDescription {
+    margin-right: 20px;
+    font-size: 1.2em;
+  }
+
+  .paragraphe2 {
+    font-size: 1.2em;
+  }
+
+  li {
+    font-size: 1.2em;
+  }
+
+  .font {
+    flex-direction: column;
+    float: center;
+    width: 80px;
+  }
+}
