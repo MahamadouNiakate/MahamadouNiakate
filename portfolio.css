@@ -51,6 +51,31 @@ li {
   border-bottom: 1px solid #999;
 }
 
+.development {
+  margin-left: 60px;
+  border-bottom: none;
+}
+
+.eng {
+  margin-left: 60px;
+  border-bottom: none;
+}
+
+.cus {
+  margin-left: 60px;
+  border-bottom: none;
+}
+
+.key {
+  margin-left: 60px;
+  border-bottom: none;
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+}
+
 .paragraphe2 {
   float: center;
   width: 80%;
@@ -78,6 +103,20 @@ h2 {
   text-align: justify;
   margin-left: 60px;
   margin-top: 60px;
+  margin-right: 2px;
+}
+
+.skills {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.skills1 {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 20px;
 }
 
 .photoo {
@@ -221,6 +260,31 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.javascript {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.html {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.css {
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+.react {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.node {
+  font-size: 20px;
+  margin-left: 60px;
 }
 
 .titre1 {
