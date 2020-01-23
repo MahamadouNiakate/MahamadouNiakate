@@ -17,6 +17,18 @@ body {
   margin-top: 100px;
 }
 
+.titreDeveloper {
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.i_am {
+  margin-left: 720px;
+}
+
 a:li {
   background-color: #f44336;
   color: white;
@@ -229,14 +241,18 @@ button {
   margin-left: 80px;
 }
 
+.projet2 {
+  margin-left: 70px;
+}
+
 .projet3 {
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 100px;
 }
 
 .imageDanse {
   width: 150px;
-  margin-left: 80px;
+  margin-left: 140px;
 }
 
 .textThirdProject {
@@ -340,7 +356,7 @@ button {
 .titre1 {
   border-top: 2px solid blue;
   width: 110px;
-  margin-left: 60px;
+  margin-left: 720px;
   margin-top: 40px;
 }
 
@@ -490,6 +506,55 @@ button {
     float: center;
     width: 80px;
   }
+
+  .partieProject {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+  }
+
+  .i_am {
+    margin-left: 300px;
+  }
+
+  .titre1 {
+    margin-left: 300px;
+  }
+
+  .ProjectTitre {
+    margin-left: 30px;
+  }
+
+  .titre2 {
+    margin-left: 30px;
+  }
+
+  .titreContact {
+    margin-left: 30px;
+  }
+
+  .titre4 {
+    margin-left: 30px;
+  }
+
+  .titre {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .projet2 {
+    margin-left: 30px;
+  }
+
+  .projet3 {
+    margin-left: 30px;
+  }
+
+  .buttonSite3 {
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -509,7 +574,19 @@ button {
     margin-top: 150px;
   }
 
+  .titreDeveloper {
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
   h2 {
+    margin-left: 125px;
+  }
+
+  .i_am {
     margin-left: 125px;
   }
 
@@ -524,6 +601,10 @@ button {
   .Projects {
     margin-left: 20px;
     margin-right: 130px;
+  }
+
+  .ProjectTitre {
+    margin-left: 120px;
   }
 
   .titre2 {
@@ -545,6 +626,11 @@ button {
   .yaka {
     width: 350px;
     margin-top: 60px;
+  }
+
+  .imageDanse {
+    width: 150px;
+    margin-left: 80px;
   }
 
   .textFirstProject {
@@ -585,7 +671,7 @@ button {
   }
 
   .titreContact {
-    margin-right: 100px;
+    margin-right: 40px;
   }
 
   .titre4 {
